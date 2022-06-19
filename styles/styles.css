@@ -99,7 +99,20 @@ h1, h2{
     font-weight: bold;
     text-align: center;
     color: rgb(87, 190, 235);
+    animation-duration: 10s;
+    animation-name: colores;
+    animation-iteration-count: infinite;
 }
+
+@keyframes colores{
+    0% {
+        color: rgb(87, 190, 235);
+    }
+    50% {
+        color: rgb(220, 121, 173);}    
+}
+
+
 
 .parrafo{
     text-align: start ;
@@ -112,6 +125,7 @@ footer{
     flex-direction:row;
     justify-content: space-evenly;
     width: auto;
+    padding: 3px;
     background-color: rgb(220, 121, 173);
 }
 
