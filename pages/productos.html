@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="./../styles/styles.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
         <title>Productos</title>
-</head>
+    </head>
 <body id="gridProduct">
-    <header class="border">
+    <header>
         <div>
         <a href="./../index.html">
             <img src="./../assets/imagotipo.png">
@@ -37,59 +39,100 @@
             </ul>
         </nav>
     </header>
-    <article>
+    <article class="container">
         <h2>Nuestros Productos</h2>
-        <div class="productos">
-            <article class="card">
-                <img class="img" src="../assets/vasomalvavisco.jpg" alt="Vasitos con Malvaviscos" title="Vasitos con Malvaviscos" width="100%">
-                <p>Precio x Menor: <b>$100.-</b> | Precio x Mayor: <b>$90.-</b></p>
-            </article>
-            <article class="card">
-                <img src="../assets/vasomalvavisco.jpg" alt="Vasitos con Malvaviscos" title="Vasitos con Malvaviscos" width="100%">
-                <p>Precio x Menor: <b>$100.-</b> | Precio x Mayor: <b>$90.-</b></p>
-            </article>
-            <article class="card">
-                <img src="../assets/vasomalvavisco.jpg" alt="Vasitos con Malvaviscos" title="Vasitos con Malvaviscos" width="100%">
-                <p>Precio x Menor: <b>$100.-</b> | Precio x Mayor: <b>$90.-</b></p>
-            </article>
-            <article class="card">
-                <img src="../assets/vasomalvavisco.jpg" alt="Vasitos con Malvaviscos" title="Vasitos con Malvaviscos" width="100%">
-                <p>Precio x Menor: <b>$100.-</b> | Precio x Mayor: <b>$90.-</b></p>
-            </article>
-            <article class="card">
-                <img src="../assets/vasomalvavisco.jpg" alt="Vasitos con Malvaviscos" title="Vasitos con Malvaviscos" width="100%">
-                <p>Precio x Menor: <b>$100.-</b> | Precio x Mayor: <b>$90.-</b></p>
-            </article>
-            <article class="card">
-                <img src="../assets/vasomalvavisco.jpg" alt="Vasitos con Malvaviscos" title="Vasitos con Malvaviscos" width="100%">
-                <p>Precio x Menor: <b>$100.-</b> | Precio x Mayor: <b>$90.-</b></p>
-            </article>
-            <article class="card">
-                <img src="../assets/vasomalvavisco.jpg" alt="Vasitos con Malvaviscos" title="Vasitos con Malvaviscos" width="100%">
-                <p>Precio x Menor: <b>$100.-</b> | Precio x Mayor: <b>$90.-</b></p>
-            </article>
-            <article class="card">
-                <img src="../assets/vasomalvavisco.jpg" alt="Vasitos con Malvaviscos" title="Vasitos con Malvaviscos" width="100%">
-                <p>Precio x Menor: <b>$100.-</b> | Precio x Mayor: <b>$90.-</b></p>
-            </article>
-            <article class="card">
-                <img src="../assets/vasomalvavisco.jpg" alt="Vasitos con Malvaviscos" title="Vasitos con Malvaviscos" width="100%">
-                <p>Precio x Menor: <b>$100.-</b> | Precio x Mayor: <b>$90.-</b></p>
-            </article>
-            <article class="card">
-                <img src="../assets/vasomalvavisco.jpg" alt="Vasitos con Malvaviscos" title="Vasitos con Malvaviscos" width="100%">
-                <p>Precio x Menor: <b>$100.-</b> | Precio x Mayor: <b>$90.-</b></p>
-            </article>
-            
-        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="../assets/vasomalvavisco.jpg" class="card-img-top" alt="Vasito con Malvaviscos">
+                <div class="card-body">
+                  <h5 class="card-title">Vasito con Malvaviscos</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <b>Precio por Menor $100.- | Precio por Mayor $90.-</b>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                  <img src="../assets/vasomalvavisco.jpg" class="card-img-top" alt="Vasito con Malvaviscos">
+                  <div class="card-body">
+                    <h5 class="card-title">Vasito con Malvaviscos</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <b>Precio por Menor $100.- | Precio por Mayor $90.-</b>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="../assets/vasomalvavisco.jpg" class="card-img-top" alt="Vasito con Malvaviscos">
+                  <div class="card-body">
+                    <h5 class="card-title">Vasito con Malvaviscos</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <b>Precio por Menor $100.- | Precio por Mayor $90.-</b>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="../assets/vasomalvavisco.jpg" class="card-img-top" alt="Vasito con Malvaviscos">
+                  <div class="card-body">
+                    <h5 class="card-title">Vasito con Malvaviscos</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <b>Precio por Menor $100.- | Precio por Mayor $90.-</b>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="../assets/vasomalvavisco.jpg" class="card-img-top" alt="Vasito con Malvaviscos">
+                  <div class="card-body">
+                    <h5 class="card-title">Vasito con Malvaviscos</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <b>Precio por Menor $100.- | Precio por Mayor $90.-</b>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="../assets/vasomalvavisco.jpg" class="card-img-top" alt="Vasito con Malvaviscos">
+                  <div class="card-body">
+                    <h5 class="card-title">Vasito con Malvaviscos</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <b>Precio por Menor $100.- | Precio por Mayor $90.-</b>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="../assets/vasomalvavisco.jpg" class="card-img-top" alt="Vasito con Malvaviscos">
+                  <div class="card-body">
+                    <h5 class="card-title">Vasito con Malvaviscos</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <b>Precio por Menor $100.- | Precio por Mayor $90.-</b>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="../assets/vasomalvavisco.jpg" class="card-img-top" alt="Vasito con Malvaviscos">
+                  <div class="card-body">
+                    <h5 class="card-title">Vasito con Malvaviscos</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <b>Precio por Menor $100.- | Precio por Mayor $90.-</b>
+                  </div>
+                </div>
+              </div>
+          </div>
     </article>
-    <footer class="border">
+    <footer>
         <div>
             <a href="mailto:golondrinadulces@gmail.com">golondrinadulces@gmail.com</a> 
         </div>
         <div>    
             <a href="https://wa.me/+541153862941">+54 9 11 6803 5471</a>
         </div>
-    </footer>  
-</body>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>  
 </html>

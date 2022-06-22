@@ -140,14 +140,6 @@ footer div a{
     width: 90%;
 }
 
-.card{
-    width: 30%;
-    margin-left: 5px;
-    margin-right: 5px;
-    color: rgb(87, 190, 235);
-    text-align: center;
-}
-
 b{
     font-weight: bold;
     color: black;
@@ -156,4 +148,8 @@ b{
 @media screen and (max-width: 390px) {
     html{font-size: 12px;
     }
+}
+
+.card-title{
+    color: rgb(87, 190, 235);
 }

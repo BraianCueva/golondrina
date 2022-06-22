@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +13,7 @@
     <title>Inicio</title>
 </head>
 <body id="grid">
-    <header class="border">
+    <header>
         <div>
         <a href="./index.html">
             <img src="./assets/imagotipo.png">
@@ -20,27 +22,45 @@
         <nav>
             <ul>
                 <li>
-                    <a href="./index.html">Inicio</a> 
+                <a href="./index.html">Inicio</a> 
                 </li>
                 <li>
-                    <a href="./pages/nosotros.html">Nosotros</a> 
+                <a href="./pages/nosotros.html">Nosotros</a> 
                 </li>
                 <li>
-                    <a href="./pages/productos.html">Productos</a> 
+                <a href="./pages/productos.html">Productos</a> 
                 </li>
                 <li>
-                    <a href="./pages/contacto.html">Contacto</a> 
+                <a href="./pages/contacto.html">Contacto</a> 
                 </li>
                 <li>
-                    <a href="./pages/comunidad.html">Comunidad</a> 
+                <a href="./pages/comunidad.html">Comunidad</a> 
                 </li>
             </ul>
         </nav>
     </header>
-    <section class="border">
-        <div>
-        <img src="./assets/mainuno.jpg" alt="Vasitos con Malvaviscos" title="Vasitos con Malvaviscos" width="90%">
-        </div>
+    <section>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/mainuno.jpg" class="d-block w-100" alt="Botellita Animalitos">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/mainuno.jpg" class="d-block w-100" alt="Botellita Animalitos">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/mainuno.jpg" class="d-block w-100" alt="Botellita Animalitos">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </section>
     <article class="parrafo">
         <h1>Bienvenidos a Golondrina Dulces</h1>
@@ -52,7 +72,7 @@
         including versions of Lorem Ipsum.
         </p>
     </article>
-    <footer class="border">
+    <footer>
         <div>
             <a href="mailto:golondrinadulces@gmail.com">golondrinadulces@gmail.com</a> 
         </div>
@@ -60,5 +80,7 @@
             <a href="https://wa.me/+541153862941">+54 9 11 6803 5471</a>
         </div>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
