@@ -4,6 +4,14 @@
   font-family: "Varela Round", sans-serif;
 }
 
+.font--bold {
+  font-weight: bold;
+}
+
+.font--light {
+  font-weight: lighter;
+}
+
 ul {
   list-style-type: none;
 }

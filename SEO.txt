@@ -1,0 +1,15 @@
+.Optimización de imágenes:
+	Las imágenes no exceden el tamaño de 1MB cada una. Conservando su calidad.
+
+.Keywords:
+	Golosinas, caramelos, gomitas, chicles, dulces, souvenir, candy bar, cumpleaños, regalos dulces, vidal, docile, arcor, gomitas ácidas
+
+.Title:
+	Index: Golondrina Dulces
+	Nosotros: Sobre nosotros | Golondrina Dulces
+	Productos: Nuestros productos | Golondrina Dulces
+	Contacto: Contacto | Golondrina Dulces
+	Comunidad: Comunidad | Golondrina Dulces
+
+.Description:
+	Creamos momentos dulces! En Golondrina podrás encontrar regalos, souvenir, complementos para cumpleaños y mucho más.
